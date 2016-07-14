@@ -25,7 +25,7 @@ ARCH=`uname -i`
 MAINTAINER=someone@creativemarket.com
 VENDOR="Creative Market"
 PACKAGE_NAME="mysqlconnector"
-DESCRIPTION="MySQL export, redaction, import tool"
+DESCRIPTION="Segment.io MySQL Connector"
 PACKAGE_FILE="mysqlconnector_${VERSION}_amd64.deb"
 
 POST_INSTALL_PATH=`mktemp`
@@ -47,7 +47,6 @@ mkdir -p $TMP_WORK_DIR/$INSTALL_ROOT_DIR/versions/$VERSION/
 cp mysqlconnector $TMP_WORK_DIR/$INSTALL_ROOT_DIR/versions/$VERSION/mysqlconnector
 
 mkdir -p $TMP_WORK_DIR/$CONFIG_ROOT_DIR/
-# cp conf/mysqlconnector.json $TMP_WORK_DIR/$CONFIG_ROOT_DIR/mysqlconnector.json.example
 
 mkdir -p $TMP_WORK_DIR/$LOG_ROOT_DIR/
 
