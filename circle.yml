@@ -1,3 +1,7 @@
+machine:
+    environment:
+        SERVICE: mysqlconnector
+
 test:
 
     override:
