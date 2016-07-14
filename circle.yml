@@ -1,0 +1,21 @@
+test:
+
+    override:
+        - go test $(go list ./... | grep -v /vendor/) -v -race # Run the tests once
+
+deployment:
+    release:
+        tag: /[0-9]+(\.[0-9]+)*/
+        commands:
+            # apt update
+            - sudo apt-get update
+            # Install fpm and its prereqs
+            - sudo apt-get install ruby-dev gcc
+            - gem install fpm
+
+            # Packagecloud deps
+            - gem install package_cloud
+
+            - ./package.sh $CIRCLE_TAG
+            - cp "$SERVICE"_"$CIRCLE_TAG"_amd64.deb $CIRCLE_ARTIFACTS
+            - package_cloud push creativemarket/$SERVICE/ubuntu/trusty "$SERVICE"_"$CIRCLE_TAG"_amd64.deb
