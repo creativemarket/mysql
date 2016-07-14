@@ -41,7 +41,7 @@ cat <<EOF >$POST_UNINSTALL_PATH
 #!/bin/sh
 EOF
 
-go build -ldflags -o mysqlconnector
+go build -o mysqlconnector
 
 mkdir -p $TMP_WORK_DIR/$INSTALL_ROOT_DIR/versions/$VERSION/
 cp mysqlconnector $TMP_WORK_DIR/$INSTALL_ROOT_DIR/versions/$VERSION/mysqlconnector
