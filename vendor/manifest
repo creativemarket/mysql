@@ -1,0 +1,286 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"vcs": "git",
+			"revision": "a283a10442df8dc09befd873fab202bf8a253d6a",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/asaskevich/govalidator",
+			"repository": "https://github.com/asaskevich/govalidator",
+			"vcs": "git",
+			"revision": "593d64559f7600f29581a3ee42177f5dbded27a9",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/bmizerany/assert",
+			"repository": "https://github.com/bmizerany/assert",
+			"vcs": "git",
+			"revision": "b7ed37b82869576c289d7d97fb2bbd8b64a0cb28",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/cenkalti/backoff",
+			"repository": "https://github.com/cenkalti/backoff",
+			"vcs": "git",
+			"revision": "cdf48bbc1eb78d1349cbda326a4a037f7ba565c6",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/docopt/docopt-go",
+			"repository": "https://github.com/docopt/docopt-go",
+			"vcs": "git",
+			"revision": "784ddc588536785e7299f7272f39101f7faccc3f",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/go-sql-driver/mysql",
+			"repository": "https://github.com/go-sql-driver/mysql",
+			"vcs": "git",
+			"revision": "3654d25ec346ee8ce71a68431025458d52a38ac0",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "874264fbbb43f4d91e999fecb4b40143ed611400",
+			"branch": "master",
+			"path": "/proto",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf/ptypes/any",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "874264fbbb43f4d91e999fecb4b40143ed611400",
+			"branch": "master",
+			"path": "ptypes/any",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/jarcoal/httpmock",
+			"repository": "https://github.com/jarcoal/httpmock",
+			"vcs": "git",
+			"revision": "145b10d659265440f062c31ea15326166bae56ee",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/jmoiron/sqlx",
+			"repository": "https://github.com/jmoiron/sqlx",
+			"vcs": "git",
+			"revision": "bdae0c3219c3bdb92f3d7c70825018712787c933",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/kr/pretty",
+			"repository": "https://github.com/kr/pretty",
+			"vcs": "git",
+			"revision": "737b74a46c4bf788349f72cb256fed10aea4d0ac",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/kr/pty",
+			"repository": "https://github.com/kr/pty",
+			"vcs": "git",
+			"revision": "ce7fa45920dc37a92de8377972e52bc55ffa8d57",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/kr/text",
+			"repository": "https://github.com/kr/text",
+			"vcs": "git",
+			"revision": "7cafcd837844e784b526369c9bce262804aebc60",
+			"branch": "main",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/lib/pq",
+			"repository": "https://github.com/lib/pq",
+			"vcs": "git",
+			"revision": "4dd446efc17690bc53e154025146f73203b18309",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mattn/go-sqlite3",
+			"repository": "https://github.com/mattn/go-sqlite3",
+			"vcs": "git",
+			"revision": "e118d4451349065b8e7ce0f0af32e033995363f8",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo",
+			"repository": "https://github.com/onsi/ginkgo",
+			"vcs": "git",
+			"revision": "7d3240191d7b2311b60090fcbc96e56bffc45ec0",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/onsi/gomega",
+			"repository": "https://github.com/onsi/gomega",
+			"vcs": "git",
+			"revision": "9ed8da19f2156b87a803a8fdf6d126f627a12db1",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/segment-sources/sqlsource",
+			"repository": "https://github.com/segment-sources/sqlsource",
+			"vcs": "git",
+			"revision": "6ed15eecc75a63844d34266d196748b0471ce1f9",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/segmentio/go-snakecase",
+			"repository": "https://github.com/segmentio/go-snakecase",
+			"vcs": "git",
+			"revision": "796e4dcc7f36e16837f06f8173c6857d8b624b00",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/segmentio/go-tableize",
+			"repository": "https://github.com/segmentio/go-tableize",
+			"vcs": "git",
+			"revision": "19fd541642da93286754bcc156b089d34e6f74e4",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/segmentio/objects-go",
+			"repository": "https://github.com/segmentio/objects-go",
+			"vcs": "git",
+			"revision": "6cbc1a464ae681ec0d13b17fdd454c0e8b716383",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/stretchr/testify/assert",
+			"repository": "https://github.com/stretchr/testify",
+			"vcs": "git",
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"branch": "master",
+			"path": "assert",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/stretchr/testify/require",
+			"repository": "https://github.com/stretchr/testify",
+			"vcs": "git",
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"branch": "master",
+			"path": "require",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/stretchr/testify/suite",
+			"repository": "https://github.com/stretchr/testify",
+			"vcs": "git",
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"branch": "master",
+			"path": "/suite",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew",
+			"repository": "https://github.com/stretchr/testify",
+			"vcs": "git",
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"branch": "master",
+			"path": "vendor/github.com/davecgh/go-spew/spew",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib",
+			"repository": "https://github.com/stretchr/testify",
+			"vcs": "git",
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"branch": "master",
+			"path": "vendor/github.com/pmezard/go-difflib/difflib",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/tj/docopt",
+			"repository": "https://github.com/tj/docopt",
+			"vcs": "git",
+			"revision": "c8470e45692f168e8b380c5d625327e756d7d0a9",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/tj/go-sync/semaphore",
+			"repository": "https://github.com/tj/go-sync",
+			"vcs": "git",
+			"revision": "8448302468e84b34d4b949808dd5874149be15d1",
+			"branch": "master",
+			"path": "/semaphore",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/sys/unix",
+			"repository": "https://go.googlesource.com/sys",
+			"vcs": "git",
+			"revision": "a646d33e2ee3172a661fc09bca23bb4889a41bc8",
+			"branch": "master",
+			"path": "/unix",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/airbrake/gobrake.v2",
+			"repository": "https://gopkg.in/airbrake/gobrake.v2",
+			"vcs": "git",
+			"revision": "31c8ff1fb8b79a6947e6565e9a6df535f98a6b94",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/check.v1",
+			"repository": "https://gopkg.in/check.v1",
+			"vcs": "git",
+			"revision": "4f90aeace3a26ad7021961c297b22c42160c7b25",
+			"branch": "v1",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"repository": "https://gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"vcs": "git",
+			"revision": "31e6fd4bd5a98d8ee7673d24bc54ec73c31810dd",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/validator.v2",
+			"repository": "https://gopkg.in/validator.v2",
+			"vcs": "git",
+			"revision": "3e4f037f12a1221a0864cf0dd2e81c452ab22448",
+			"branch": "v2",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"vcs": "git",
+			"revision": "e4d366fc3c7938e2958e662b4258c7a89e1f0e3e",
+			"branch": "v2",
+			"notests": true
+		}
+	]
+}
