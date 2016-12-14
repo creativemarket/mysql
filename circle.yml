@@ -23,3 +23,4 @@ deployment:
             - ./package.sh $CIRCLE_TAG
             - cp "$SERVICE"_"$CIRCLE_TAG"_amd64.deb $CIRCLE_ARTIFACTS
             - package_cloud push creativemarket/$SERVICE/ubuntu/trusty "$SERVICE"_"$CIRCLE_TAG"_amd64.deb
+            - package_cloud push creativemarket/$SERVICE/ubuntu/xenial "$SERVICE"_"$CIRCLE_TAG"_amd64.deb
